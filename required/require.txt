@@ -1,8 +1,22 @@
 ### OLIMPO-API ###
 
+** INSTALANDO (MAVEN E JAVA) **
+
 * Java  - versão 17
-    pode baixar em: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+    - pode baixar em: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+    - adicionar às variáveis de ambiente
+    - execute na linha de comando: java -version
 
 * Maven - versão 3.6.3
-    Pode baixar em: https://maven.apache.org/download.cgi
-    Se estiver no windows, pode baixar com o chocolatey: choco install maven --version=3.6.3
+    - Pode baixar em: https://maven.apache.org/download.cgi
+    - Se estiver no windows, pode baixar com o chocolatey: choco install maven --version=3.6.3
+    - execute na linha de comando: mvn -v
+
+** EXECUÇÂO DA API (LOCALMENTE) **
+    - baixe o repositório com o comando: git clone https://github.com/devn2bs/OlimpoAPI.git
+    - vai até a pasta do projecto com o comando: cd /caminho/para/seu/projeto
+    - execute o comando: mvn clean install      (para instalar todas as dependências e compilar o projecto)
+    - execute o projecto com o comando: mvn spring-boot:run
+
+
+

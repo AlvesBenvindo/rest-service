@@ -1,0 +1,8 @@
+### OLIMPO-API ###
+
+* Java  - versão 17
+    pode baixar em: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+* Maven - versão 3.6.3
+    Pode baixar em: https://maven.apache.org/download.cgi
+    Se estiver no windows, pode baixar com o chocolatey: choco install maven --version=3.6.3
